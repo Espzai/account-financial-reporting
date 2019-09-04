@@ -214,7 +214,7 @@
                                t-att-data-res-model="res_model"
                                class="o_account_financial_reports_web_action"
                                t-att-style="style">
-                                <t t-att-style="style" t-raw="line.name"/></a>
+                                <t t-att-style="style" t-raw="line.account_id.name"/></a>
                         </span>
                     </t>
                     <t t-if="line.account_group_id">
@@ -224,7 +224,7 @@
                                t-att-data-res-model="res_model"
                                class="o_account_financial_reports_web_action"
                                t-att-style="style">
-                                <t t-att-style="style" t-raw="line.name"/></a>
+                                <t t-att-style="style" t-raw="line.account_group_id.name"/></a>
                         </span>
                     </t>
                 </t>
